@@ -1,0 +1,10 @@
+.content{
+    width: 500px;
+    min-height: 560px;    
+    margin: 92px auto;
+    position: fixed;   
+  }
+
+body{
+    background-image: url("swamp.jpg");
+}

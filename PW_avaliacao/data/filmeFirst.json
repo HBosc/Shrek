@@ -1,0 +1,15 @@
+{
+    "filmeFirst":{
+        "title" : "Shrek 1",
+        "year" : 2001,
+        "director" : "Andrew Adamson",
+        "image": "img/shrek1.jpg"
+    },
+    "SecondFilm":{
+        "title" : "Shrek 2",
+        "year" : 2004,
+        "director" : "Andrew Adamson",
+        "image": "img/shrek2.jpg"
+    }
+}
+    

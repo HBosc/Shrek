@@ -1,0 +1,32 @@
+<filmes>
+    <filme>
+        <primeiroFilme>
+            <titulo>
+                Shrek 1
+            </titulo>
+            <imagem>
+                <img src="img/shrek1.jpg" alt="Shrek 1" width="200" height="300"></img>
+            </imagem>
+            <ano>
+                2001
+            </ano>
+            <diretor>
+                Andrew Adamson
+            </diretor>
+        </primeiroFilme>
+        <segundoFilme>
+            <titulo>
+                Shrek 2
+            </titulo>
+            <imagem>
+                <img src="img/shrek2.jpg" alt="Shrek 2" width="200" height="300"></img>
+            </imagem>
+            <ano>
+                2004
+            </ano>
+            <diretor>
+                Andrew Adamson
+            </diretor>
+        </segundoFilme>
+    </filme>
+</filmes>

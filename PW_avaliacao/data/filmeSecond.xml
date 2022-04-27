@@ -1,0 +1,30 @@
+<filmes>
+    <terceiroFilme>
+        <titulo>
+            Shrek 3
+        </titulo>
+        <imagem>
+            <img src="img/shrek3.jpg" alt="Shrek 3" width="200" height="300"></img>
+        </imagem>
+        <ano>
+            2007
+        </ano>
+        <diretor>
+            Chris Miller
+        </diretor>
+    </terceiroFilme>
+    <quartoFilme>
+        <titulo>
+            Shrek 4
+        </titulo>
+        <imagem>
+            <img src="img/shrek4.jpg" alt="Shrek 4" width="200" height="300"></img>
+        </imagem>
+        <ano>
+            2010
+        </ano>
+        <diretor>
+            Mike Mitchell
+        </diretor>
+    </quartoFilme>
+</filmes>

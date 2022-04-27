@@ -1,0 +1,14 @@
+{
+    "ThirdFilm": {
+        "title": "Shrek 3",
+        "year": 2007,
+        "director": "Chris Miller",
+        "image": "img/shrek3.jpg"
+    },
+    "FourthFilm":{
+        "title": "Shrek 4",
+        "year": 2010,
+        "director": "Mike Mitchell",
+        "image": "img/shrek4.jpg"
+    }
+}
