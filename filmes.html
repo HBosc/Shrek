@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="shortcut icon" type="img/jpg" href="img/shrekAvatar.png"/>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="filmes.css">
+    <title>Shrek</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg minha-navbar">        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Personagens</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./form/formulario.html">Entre no Pantano</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="filmes.html">Filmes</a>
+              </li>
+            </ul>
+            <span class="navbar-text">
+                <a href="#"><img src="img/shrekAvatar.png"></a>
+            </span>
+          </div>
+    </nav>
+
+    <div class="conteudo">
+        <div class="imagem-fundo"></div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-8">
+                    <!-- Atalho emmet: -->
+                    <!-- div.todos-filmes>div.linha-filmes*2>div.filme*4>(div.capa>img)+div.infos>p.titulo+p.diretor+p.ano -->
+                    <div class="todos-filmes">
+                        <div class="linha-filmes">
+                            <div class="filme" id="filme1">
+                                <div class="capa"><img src="" alt=""></div>
+                                <div class="infos">
+                                    <p class="titulo"></p>
+                                    <p class="diretor"></p>
+                                    <p class="ano"></p>
+                                    <p class="sinopse"></p>
+                                </div>
+                            </div>
+                            <div class="filme" id="filme2">
+                                <div class="capa"><img src="" alt=""></div>
+                                <div class="infos">
+                                    <p class="titulo"></p>
+                                    <p class="diretor"></p>
+                                    <p class="ano"></p>
+                                    <p class="sinopse"></p>
+                                </div>
+                            </div>
+                            <div class="filme" id="filme3">
+                                <div class="capa"><img src="" alt=""></div>
+                                <div class="infos">
+                                    <p class="titulo"></p>
+                                    <p class="diretor"></p>
+                                    <p class="ano"></p>
+                                    <p class="sinopse"></p>
+                                </div>
+                            </div>
+                            <div class="filme" id="filme4">
+                                <div class="capa"><img src="" alt=""></div>
+                                <div class="infos">
+                                    <p class="titulo"></p>
+                                    <p class="diretor"></p>
+                                    <p class="ano"></p>
+                                    <p class="sinopse"></p>
+                                </div>
+                            </div>
+                        </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 lado-direito">
+                    <div class="jumbotron my-jumbo">
+                        <h1 class="display-4" id="msg-direito">Clique em um filme para exibir mais detalhes!</h1>
+                        <div id="conteudo-direito">
+                            <p id="visualiza-titulo"></p>
+                            <img id="visualiza-imagem" src="" alt="">
+                            <p id="visualiza-ano-diretor"></p>
+                            <p id="visualiza-sinopse"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="rodape">
+        <p>Página HTML desenvolvida por Heitor Boscariol ©</p>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="filmesJQ.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+  </body>
+</html>
